@@ -1,19 +1,17 @@
 {
-    "id": "62A40E5B",
+    "id": "E67EB43B",
     "path": "~/R/Personal-Code/code/figure 5 regeneration debt.R",
-    "project_path": null,
+    "project_path": "code/figure 5 regeneration debt.R",
     "type": "r_source",
-    "hash": "1457346456",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1700584994033.0,
+    "created": 1700586164027.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source",
-        "cursorPosition": "15,0",
-        "scrollLine": "0"
+        "Source": "Source"
     },
     "folds": "",
     "lastKnownWriteTime": 1700584325,
