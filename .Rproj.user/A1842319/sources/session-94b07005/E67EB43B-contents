@@ -15,19 +15,19 @@ quadrats <- read_sf("doc/20m_grid/20m_grid.shp")
 
 ggplot() + geom_sf(data = quadrats)
 
-<<<<<<< Updated upstream
-##load census data
-census2023 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem4.csv")
-census2018 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem3.csv")
-census2013 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem2.csv")
-census2008 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem1.csv")
-=======
-##load cencus data
-cencus2023 <- read.csv("doc/cencus data/scbi.stem4.csv")
-cencus2018 <- read.csv("doc/cencus data/old cencus data/scbi.stem3.csv")
-cencus2013 <- read.csv("doc/cencus data/old cencus data/scbi.stem2.csv")
-cencus2008 <- read.csv("doc/cencus data/old cencus data/scbi.stem1.csv")
->>>>>>> Stashed changes
+###<<<<<<< Updated upstream
+#####load census data
+###census2023 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem4.csv")
+###census2018 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem3.csv")
+###census2013 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem2.csv")
+###census2008 <- read.csv("C:/Users/elmgi/Downloads/scbi.stem1.csv")
+###=======
+#####load cencus data
+census2023 <- read.csv("doc/census data/scbi.stem4.csv")
+census2018 <- read.csv("doc/census data/old census data/scbi.stem3.csv")
+census2013 <- read.csv("doc/census data/old census data/scbi.stem1.csv")
+census2008 <- read.csv("doc/census data/old census data/scbi.stem1.csv")
+###>>>>>>> Stashed changes
 
 #read in species table
 spTable <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/species_lists/Tree%20ecology/SCBI_ForestGEO_sp_ecology.csv")
