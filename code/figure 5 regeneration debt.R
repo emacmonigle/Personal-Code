@@ -20,7 +20,7 @@ census2023 <- read.csv("doc/census data/scbi.stem4.csv")
 census2018 <- read.csv("doc/census data/old census data/scbi.stem3.csv")
 census2013 <- read.csv("doc/census data/old census data/scbi.stem2.csv")
 census2008 <- read.csv("doc/census data/old census data/scbi.stem1.csv")
->>>>>>> Stashed changes
+
 
 #read in species table
 spTable <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/species_lists/Tree%20ecology/SCBI_ForestGEO_sp_ecology.csv")

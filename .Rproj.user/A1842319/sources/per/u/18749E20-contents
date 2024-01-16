@@ -1,0 +1,42 @@
+#for loop lesson :)
+
+rm(list = ls())
+
+census2023 <- read.csv("doc/census data/scbi.stem4.csv")
+census2018 <- read.csv("doc/census data/old census data/scbi.stem3.csv")
+census2013 <- read.csv("doc/census data/old census data/scbi.stem2.csv")
+census2008 <- read.csv("doc/census data/old census data/scbi.stem1.csv")
+
+#creating for loop that spits out stems organized by species
+for(sp in unique(census2023$sp)
+
+
+
+output <- census2023[census2023$sp == sp,]
+
+
+write.csv(y, paste0(sp , "__results.csv"))
+
+
+)
+
+
+
+
+#growing results file with all repititions of for loop
+
+R <- NULL
+
+for(sp in unique(census2023$sp)
+      
+      
+      
+      output <- census2023[census2023$sp == sp,]
+      
+      
+r = 
+  
+  R <- rbind (R, data.frame, sp = sp, ratio_A r)
+
+)
+R
